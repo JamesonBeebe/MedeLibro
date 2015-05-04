@@ -15,5 +15,11 @@
  */
 
 body {
+	position: absolute;
 	padding-top: 40px;
+}
+
+.notice .alert{
+	position: absolute;
+	top: 20px;
 }
