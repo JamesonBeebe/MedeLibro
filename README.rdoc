@@ -4,8 +4,9 @@ This README would normally document whatever steps are necessary to get the
 application up and running.
 
 Things you may want to cover:
+* Rails Version = 4.2.0
 
-* Ruby version
+* Ruby version = ruby 2.1.5p273
 
 * System dependencies
 
