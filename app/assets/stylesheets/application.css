@@ -19,7 +19,6 @@ body {
 	padding-top: 40px;
 }
 
-.notice .alert{
-	position: absolute;
-	top: 20px;
+.notice{
+	padding-top: 20px;
 }
