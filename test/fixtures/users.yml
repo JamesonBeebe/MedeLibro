@@ -4,3 +4,10 @@ jameson:
   email: "jamesonbeebe@gmail.com"
   profile_name: "Jamdaman1"
   encrypted_password: $2a$10$8uCZ9wCTsFoqa0aIfpssne4qtchcpqhepdU5WylZwh4GBAkgFWEYe"
+
+arthur:
+  first_name: "Arthur"
+  last_name: "Beebe"
+  email: "jamdaman5000@hotmail.com"
+  profile_name: "Jamdaman2"
+  encrypted_password: $2a$10$8uCZ9wCTsFoqa0aIfpssne4qtchcpqhepdU5WylZwh4GBAkgFWEYe"
