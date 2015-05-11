@@ -29,6 +29,7 @@
         <ul class="nav navbar-nav pull-right">        
           <% if user_signed_in? %>
             <li><%= link_to current_user.full_name, edit_user_registration_path %></li>
+            <li><%= link_to "New Status", new_status_path %></li>
             <li><%= link_to "Log Out", logout_path %></li>
           <% else %>
             <li><%= link_to "Register", register_path %></li>
@@ -47,9 +48,17 @@
       </div>
     <% end %>
   </div>
-  
+
+
   <%= yield %>
 
 </div>
 </body>
+
+<script>
+respond_to do |format|
+  format.js {render inline: "location.reload();" }
+end
+</script>
+
 </html>

@@ -1,6 +1,7 @@
 class StatusesController < ApplicationController
   before_action :set_status, only: [:show, :edit, :update, :destroy]
-  before_action :authenticate_user!, only: [:new, :create, :edit, :update]
+  before_action :correct_user, only: [:edit, :update, :destroy]
+  before_action :authenticate_user!, except: [:index, :show]
 
   # GET /statuses
   # GET /statuses.json
@@ -72,4 +73,12 @@ class StatusesController < ApplicationController
     def status_params
       params.require(:status).permit(:user_id, :content)
     end
+
+    def correct_user
+      if current_user != nil 
+        @status = current_user.statuses.find_by(id: params[:id])
+      end
+      else
+      redirect_to feed_path, notice: "Not authorized to edit this status" if @status.nil?
+    end    
 end
