@@ -11,3 +11,9 @@ arthur:
   email: "jamdaman5000@hotmail.com"
   profile_name: "Jamdaman2"
   encrypted_password: $2a$10$8uCZ9wCTsFoqa0aIfpssne4qtchcpqhepdU5WylZwh4GBAkgFWEYe"
+
+mike:
+  first_name: "Mike"
+  last_name: "The Frog"
+  email: "mikey@gmail.com"
+  profile_name: "mikethefrog"
