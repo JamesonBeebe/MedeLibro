@@ -3,17 +3,18 @@ jameson:
   last_name: "Beebe"
   email: "jamesonbeebe@gmail.com"
   profile_name: "Jamdaman1"
-  encrypted_password: $2a$10$8uCZ9wCTsFoqa0aIfpssne4qtchcpqhepdU5WylZwh4GBAkgFWEYe"
+  encrypted_password: "$2a$10$Fh/Hm8RxDsuPTeBUr6864.GARlcmt7zF2WspaXGr3BIv2C27N.osq"
 
 arthur:
   first_name: "Arthur"
   last_name: "Beebe"
   email: "jamdaman5000@hotmail.com"
   profile_name: "Jamdaman2"
-  encrypted_password: $2a$10$8uCZ9wCTsFoqa0aIfpssne4qtchcpqhepdU5WylZwh4GBAkgFWEYe"
+  encrypted_password: "$2a$10$Fh/Hm8RxDsuPTeBUr6864.GARlcmt7zF2WspaXGr3BIv2C27N.osq"
 
 mike:
   first_name: "Mike"
   last_name: "The Frog"
   email: "mikey@gmail.com"
   profile_name: "mikethefrog"
+  encrypted_password: "$2a$10$Fh/Hm8RxDsuPTeBUr6864.GARlcmt7zF2WspaXGr3BIv2C27N.osq"

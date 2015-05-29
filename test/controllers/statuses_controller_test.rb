@@ -77,7 +77,7 @@ class StatusesControllerTest < ActionController::TestCase
     sign_in users(:jameson)
     patch :update, id: @status
     assert_redirected_to status_path(assigns(:status))
-    assert_equal assigns(:status).user_id, users(:jameson).id
+    assert_equal assigns(:status).user_id, users(:jameson)
   end
 
   test "should destroy status" do
